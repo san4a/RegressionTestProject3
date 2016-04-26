@@ -1,7 +1,7 @@
-@AutomationFeature2
+@ST_AutomationFeature2
 Feature: Salary Management
 
-@Sc3
+@SC_asdadsc3
 Scenario: Modify an employee's salary
 Given the salary management system is initialized with the following data
 | id | user | salary |
@@ -16,7 +16,7 @@ Given the salary management system is initialized with the following data
 When the boss increases the salary for the employee with id '3' by 5%
 Then the payroll for the employee with id '3' should display a salary of 57750
 
-@Sc4
+@SC_asdadssc4
 Scenario Outline: Modify an employee's salary
 Given the salary management system is initialized with the following data
 When the boss increases the salary for the <user> with id <id> by 5%
