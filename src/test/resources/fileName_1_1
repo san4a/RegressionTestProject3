@@ -1,0 +1,26 @@
+@tag1 @ST_306574789
+Feature: featureName_1
+test
+
+Background:
+Given step
+And another <step>
+
+@tag1 @SC_650318408
+Scenario Outline: scenarioName
+scenarioDescription
+Given step
+And another <step>
+
+Examples: 
+|step|
+||
+
+
+@SC_673692749
+Scenario: backgroundName
+backgroundDescription
+Given step
+And another <step>
+
+
