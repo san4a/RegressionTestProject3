@@ -6,21 +6,17 @@ Background:
 Given step
 And another <step>
 
-@tag1 @SC_650318408
-Scenario Outline: scenarioName
-scenarioDescription
-Given step
-And another <step>
-
-Examples: 
-|step|
-||
-
-
-@SC_673692749
+@SC_453866405
 Scenario: backgroundName
 backgroundDescription
 Given step
 And another <step>
+
+
+@sss @SC_88401990
+Scenario: asdasdasdasd
+asdasdsad
+Given s
+And s
 
 
