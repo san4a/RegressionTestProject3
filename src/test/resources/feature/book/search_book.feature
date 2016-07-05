@@ -1,4 +1,4 @@
-@AutomationFeature1
+@AutomationFeature1 @ST_39106977
 Feature: Book search
   To allow a customer to find his favourite books quickly, the library must offer multiple ways to search for a book.
 
@@ -6,28 +6,31 @@ Background:
 Given a $100 microwave was sold on 2015-11-03
 And today is 2015-11-18
 
-@283534289
-Scenario: 
-Given a $100 microwave was sold on 2015-11-03
-And today is 2015-11-18
-
-@520407986
-Scenario: 
-Given a $100 microwave was sold on 2015-11-03
-And today is 2015-11-18
-
-@620201256
-Scenario: 
-Given a $100 microwave was sold on 2015-11-03
-And today is 2015-11-18
-
-@asdsc1
+@283534289 @SC_110232285
 Scenario: 
 Given a $100 microwave was sold on 2015-11-03
 And today is 2015-11-18
 
 
-@Sasdc2
+@520407986 @SC_47656182
+Scenario: 
+Given a $100 microwave was sold on 2015-11-03
+And today is 2015-11-18
+
+
+@620201256 @SC_35375243
+Scenario: 
+Given a $100 microwave was sold on 2015-11-03
+And today is 2015-11-18
+
+
+@asdsc1 @SC_57485946
+Scenario: 
+Given a $100 microwave was sold on 2015-11-03
+And today is 2015-11-18
+
+
+@Sasdc2 @SC_113718839
 Scenario: Search books by publication year
 Given a book with the title 'One good book', written by 'Anonymous', published in 14 March 2013
 And another book with the title 'Some other book', written by 'Tim Tomson', published in 23 August 2014
@@ -38,22 +41,28 @@ And Book 1 should have the title 'Some other book'
 And Book 2 should have the title 'One good book'
 Then i want do smth with "smth"
 
-@464456429
+
+@464456429 @SC_100031416
 Scenario: 
 Given a $100 microwave was sold on 2015-11-03
 And today is 2015-11-18
 
-@480877845
+
+@480877845 @SC_75357538
 Scenario: 
 Given a $100 microwave was sold on 2015-11-03
 And today is 2015-11-18
 
-@27843764
+
+@27843764 @SC_110686452
 Scenario: 
 Given a $100 microwave was sold on 2015-11-03
 And today is 2015-11-18
 
-@385850117
+
+@385850117 @SC_83899318
 Scenario: 
 Given a $100 microwave was sold on 2015-11-03
 And today is 2015-11-18
+
+
