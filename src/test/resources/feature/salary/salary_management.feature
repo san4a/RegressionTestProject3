@@ -1,10 +1,7 @@
-@ST_AutomationFeature2 @aaa
+@AutomationFeature2 @ST_69917915
 Feature: Salary Management
 
-Background:
-Given fffff
-
-@SC_asdadsc3
+@asdadsc3 @SC_98240831
 Scenario: Modify an employee's salary
 Given the salary management system is initialized with the following data
 |id|user|salary|
@@ -17,17 +14,19 @@ Given the salary management system is initialized with the following data
 |7|mickey|51000.0|
 |8|fethry|66500.0|
 
+When the boss increases the salary for the employee with id '3' by 5%
+Then the payroll for the employee with id '3' should display a salary of 57750
 
 
-@SC_asdadssc4
+@asdadssc4 @SC_88181613
 Scenario Outline: Modify an employee's salary
-And the salary management system is initialized with the following data
-When the boss increases the salary for the <user> with id <id> by 5%!
+Given the salary management system is initialized with the following data
+When the boss increases the salary for the <user> with id <id> by 5%
 Then the payroll for the employee with <id> should display a salary of <salary>
-And i want save this string to Gitxxx
+And i want save this string to Git
 And this string must be pulled from Git
 And this also must be re-stored on GIT!!!!
-And 34wteyeyyrrrretr
+And 34wteyeyy
 
 Examples: 
 |id|user|salary|
