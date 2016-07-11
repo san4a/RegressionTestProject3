@@ -1,16 +1,12 @@
-@121tag @ST_405195340
+@121tag @ST_995652272
 Feature: FeatOther Activities
 and some description is here
 
-Background:
-Given this is background
-
 @SC_907797290
-Scenario: Checking Jira work
+Scenario: 
 Given this is background
 When we get it
 And i want do smth with "that"
-And I just check it
 
 
 @121Scen @SC_324704336 @scenTag
@@ -23,21 +19,13 @@ And asdasdas
 
 
 @SC_687585306
-Scenario Outline: Another scenario
+Scenario: Another scenario
 Given i want do smth with "work"
 Then want i do "good"
-And the boss increases the salary for the <user> with id <id> by 5%!
-
-Examples: 
-|user|id|
-|||
-|||
 
 
 @SC_715646446
-Scenario: Fourth name
+Scenario: 
 Given I'm a bunny
-And I like it
-And more asdfkjahsdjf
 
 
