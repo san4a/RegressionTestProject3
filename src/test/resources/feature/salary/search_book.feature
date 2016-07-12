@@ -7,25 +7,25 @@ Given a $100 microwave was sold on 2015-11-03
 And today is 2015-11-18
 
 @283565540 @SC_37135004
-Scenario: Search I want to save
+Scenario: Search books by id
 Given a $100 microwave was sold on 2015-11-03
 And today is 2015-11-18
 
 
 @520423610 @SC_64452851
-Scenario: 
+Scenario: Search books by name
 Given a $100 microwave was sold on 2015-11-03
 And today is 2015-11-18
 
 
 @620310651 @SC_98294528
-Scenario: 
+Scenario: Search books by author
 Given a $100 microwave was sold on 2015-11-03
 And today is 2015-11-18
 
 
 @asdadsc5 @SC_108526647
-Scenario: 
+Scenario: Search books by genre
 Given a $100 microwave was sold on 2015-11-03
 And today is 2015-11-18
 
@@ -43,7 +43,7 @@ Then i want do smth with "smth"
 
 
 @464534555 @SC_45802783
-Scenario: 
+Scenario: Search books by popularity
 Given a $100 microwave was sold on 2015-11-03
 And today is 2015-11-18
 
