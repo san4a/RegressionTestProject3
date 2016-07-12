@@ -7,7 +7,7 @@ Given a $100 microwave was sold on 2015-11-03
 And today is 2015-11-18
 
 @283565540 @SC_37135004
-Scenario: 
+Scenario: Search I want to save
 Given a $100 microwave was sold on 2015-11-03
 And today is 2015-11-18
 
