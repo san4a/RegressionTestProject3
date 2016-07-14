@@ -20,8 +20,8 @@ And today is 2015-11-18
 
 @620310651 @SC_98294528
 Scenario: Search books by author
-Given a $100 microwave was sold on 2015-11-03
-And today is 2015-11-18
+When the customer searches for books published between 1 and 100
+Then Book 5 should have the title 'Harry Potter'
 
 
 @asdadsc5 @SC_108526647

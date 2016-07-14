@@ -8,8 +8,8 @@ And today is 2015-11-18
 
 @283534289 @SC_110232285
 Scenario: Search books by name
-Given a $100 microwave was sold on 2015-11-03
-And today is 2015-11-18
+When want i do "[string]"
+Then the salary management system is initialized with the following data
 
 
 @520407986 @SC_47656182

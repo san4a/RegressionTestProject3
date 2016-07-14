@@ -1,12 +1,11 @@
-@121tag @ST_995652272
+@121tag @ST_200173273
 Feature: FeatOther Activities
-and some description is here
+and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here
 
 @SC_907797290
-Scenario: 
-Given this is background
-When we get it
-And i want do smth with "that"
+Scenario: Books
+Given the customer searches for books published between 8 and 18
+Then Book 9 should have the title 'Harry Potter'
 
 
 @121Scen @SC_324704336 @scenTag
@@ -15,7 +14,6 @@ scenar name's description
 Given i want do smth with "work"
 Then want i do "good"
 And i want do smth with "this"
-And asdasdas
 
 
 @SC_687585306
@@ -26,6 +24,50 @@ Then want i do "good"
 
 @SC_715646446
 Scenario: 
-Given I'm a bunny
+Given the payroll for the employee with id 4 should display a salary of 9
+And the boss increases the salary for the employee with id 5 by 8%
+And the payroll for the employee with id 5 should display a salary of 23
+
+
+@SC_694354676
+Scenario: Books search
+When I enter book's name
+And click Search
+Then I get the result in a table
+
+
+@SC_746062407
+Scenario: Books search
+When I enter book's name
+And click Search
+Then I get the result in a table
+
+
+@SC_782459464
+Scenario: Books search
+When I enter book's name
+And click Search
+Then I get the result in a table
+
+
+@SC_732830623
+Scenario: Books search
+When I enter book's name
+And click Search
+Then I get the result in a table
+
+
+@SC_72100052
+Scenario: Books search
+When I enter book's name
+And click Search
+Then I get the result in a table
+
+
+@SC_132613798
+Scenario: Books search
+When I enter book's name
+And click Search
+Then I get the result in a table
 
 
