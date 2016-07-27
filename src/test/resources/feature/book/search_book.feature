@@ -11,24 +11,20 @@ Scenario: Search books by name
 When want i do "[string]"
 Then the salary management system is initialized with the following data
 
-
 @520407986 @SC_47656182
 Scenario: Search books by author
 Given a $100 microwave was sold on 2015-11-03
 And today is 2015-11-18
-
 
 @620201256 @SC_35375243
 Scenario: Search books by id
 Given a $100 microwave was sold on 2015-11-03
 And today is 2015-11-18
 
-
 @asdsc1 @SC_57485946
 Scenario: Search books by theme
 Given a $100 microwave was sold on 2015-11-03
 And today is 2015-11-18
-
 
 @Sasdc2 @SC_113718839
 Scenario: Search books by publication year
@@ -42,28 +38,23 @@ And Book 1 should have the title 'Some other book'
 And Book 2 should have the title 'One good book'
 Then i want do smth with "smth"
 
-
 @464456429 @SC_100031416
 Scenario: Search books by popularity
 Given a $100 microwave was sold on 2015-11-03
 And today is 2015-11-18
-
 
 @480877845 @SC_75357538
 Scenario: Search books by first letter in a name
 Given a $100 microwave was sold on 2015-11-03
 And today is 2015-11-18
 
-
 @27843764 @SC_110686452
 Scenario: Search books by
 Given a $100 microwave was sold on 2015-11-03
 And today is 2015-11-18
 
-
 @385850117 @SC_137453832
 Scenario: 
 Given a $100 microwave was sold on 2015-11-03
 And today is 2015-11-18
-
 
