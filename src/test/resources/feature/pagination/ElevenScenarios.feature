@@ -4,6 +4,7 @@ Feature: 11 scenarios
 Background:
 Given 0
 And 0
+And 0
 
 @SC_342017684
 Scenario: 1
