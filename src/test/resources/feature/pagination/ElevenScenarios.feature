@@ -9,6 +9,7 @@ And 0
 Scenario: 1
 Given 1
 And 1
+And 1
 
 @SC_386971298
 Scenario: 2
