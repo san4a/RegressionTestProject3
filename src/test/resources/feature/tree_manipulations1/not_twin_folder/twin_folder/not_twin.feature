@@ -1,4 +1,4 @@
-Feature: twin_two
+Feature: not_twin
 
 Scenario: two
 Given I have a scenario
