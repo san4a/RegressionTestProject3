@@ -1,7 +1,7 @@
 @ST_381906388
 Feature: 10 scenarios
 
-Background: back
+Background: background
 Given 0
 And 0
 
