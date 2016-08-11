@@ -2,6 +2,7 @@
 Feature: 10 scenarios
 
 Background: background
+
 Given 0
 And 0
 
